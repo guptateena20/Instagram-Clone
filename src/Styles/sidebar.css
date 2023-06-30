@@ -1,0 +1,135 @@
+/* .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    padding: 18px 200px;
+    border-bottom: 1px solid #efefef;
+    align-items: center;
+}
+
+.navbar__first{
+    width: 33.33%;
+}
+
+
+.navbar__first-logo img{
+    object-fit: cover;
+    display: block;
+}
+
+.navbar__middle{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__middle_search{
+    position: relative;
+}
+
+.navbar__search{
+    background-color: #fafafa;
+    border: 1px solid #d2dbdb;
+    padding: 7px 50px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar__search::placeholder{
+    color: #8e8e8e;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.searchIcon{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: silver;
+}
+
+.navbar__last{
+    width: 33.33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar__last li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.navbar__icons{
+    font-size: 25px;
+    cursor: pointer;
+}
+ */
+
+.leftbar_outer_div {
+    position: absolute;
+    border-right: 1px solid #d6d2d2;
+    width: 17%;
+    height: 100vh;
+    /* flex-grow: 0.7; */
+}
+
+.leftbar {
+    position: fixed;
+    /* display: flex; */
+}
+
+.insta_logo {
+    margin: 45px 40px;
+}
+
+.insta_logo img {
+    object-fit: cover;
+    display: block;
+    height: 35px;
+}
+
+.sidebar_list {
+    position: absolute;
+    top: 130px;
+    left: 15px;
+}
+
+.leftbar_outer_div .sidebar_list li {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    /* background-color:antiquewhite; */
+    margin: 15px;
+    /* width: 120%; */
+}
+
+.leftbar_outer_div .leftbar .sidebar_list .sidebar_list_items:hover {
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sidebar__icons {
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sidebar_list li span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sidebar_list .sidebar_list_items:last-child {
+    /* padding-top: 40px; */
+    margin-top: 35px;
+}

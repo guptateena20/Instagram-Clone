@@ -1,0 +1,13 @@
+.rightbar_outer_div{
+    background-color: aquamarine;
+    /* flex-grow: 1; */
+    position: absolute;
+    left: 72%;
+    width: 20%;
+    height: auto;
+}
+
+.rightbar{
+    display: flex;
+    position: fixed;
+}

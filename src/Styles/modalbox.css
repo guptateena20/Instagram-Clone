@@ -1,0 +1,37 @@
+.modalbox_container {
+    background-color: #fff;
+    position: absolute;
+    width: 300px;
+    /* z-index: 999; */
+    top: 60px;
+    left: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.modalbox li {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    margin: 13px;
+}
+
+.modalbox li:hover {
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    width: 90%;
+}
+
+.modalbox_list {
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.modalbox li span {
+    font-size: 17px;
+    font-weight: 400;
+}
+
